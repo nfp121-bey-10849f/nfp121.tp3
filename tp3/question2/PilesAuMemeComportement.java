@@ -28,6 +28,10 @@ public class PilesAuMemeComportement extends junit.framework.TestCase {
     protected void tearDown() // throws java.lang.Exception
     {
         //Libérez ici les ressources engagées par setUp()
+        p1 = null;
+        p2 = null;
+        p3 = null;
+        p4 = null;
     }
 
     public void test_Sommaire()  throws Exception {
